@@ -2,8 +2,12 @@
   "name": "neobot",
   "module": "./src/index.ts",
   "type": "module",
+  "scripts": {
+    "format": "prettier . --write"
+  },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "prettier": "^3.4.2"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
